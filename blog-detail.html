@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Detail</title>
+  <link rel="icon" href="assets/images/shop-category-slider/favicon/favicon.ico">
+  <link rel="stylesheet" href="assets/css/blog-detail.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <!------- Header section start ------->
+
+  <header class="top-header">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center fastkart-div">
+        <div class="">
+          <a href="#"><img src="assets/images/1.png" alt=""></a>
+        </div>
+        <div class="">
+          <div class="header-location-icon d-flex">
+            <div class="head-loca-icon">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="head-loc-content">
+              <span data-bs-toggle="modal" data-bs-target="#exampleModal">Your Location<i
+                  class="fas fa-angle-down"></i></span>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Choose your Delivery Location</h4>
+                      <p>Enter your address and we will specify the offer for your area.</p>
+                      <input type="text" placeholder="Search Your Area">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <span class="span-one-big">Select a Location</span>
+                      <div class="modal-box">
+                        <div class="modal-content-one">
+                          <p>Alabama</p>
+                          <span class="span-one">Min: $130</span>
+                        </div>
+                        <div class="modal-content-one">
+                          <p>Arizona</p>
+                          <span class="span-one">Min: $110</span>
+                        </div>
+                        <div class="modal-content-one">
+                          <p>California</p>
+                          <span class="span-one">Min: $120</span>
+                        </div>
+                        <div class="modal-content-one">
+                          <p>Colorado</p>
+                          <span class="span-one">Min: $170</span>
+                        </div>
+                        <div class="modal-content-one">
+                          <p>Florida</p>
+                          <span class="span-one">Min: $100</span>
+                        </div>
+                        <div class="modal-content-one">
+                          <p>Kansas</p>
+                          <span class="span-one">Min: $120</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <form class="d-flex" role="search">
+            <input placeholder="I'm searching for..." aria-label="Search">
+            <button class="btn btn-warning" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+        <div class="">
+          <ul class="top-header-ul d-flex justify-content-center">
+            <li>
+              <i class="bi bi-telephone-outbound"></i>
+            </li>
+            <li>
+              <i class="bi bi-suit-heart"></i>
+            </li>
+            <li>
+              <i class="bi bi-cart"></i>
+              <span>2</span>
+            </li>
+            <li>
+              <i class="bi bi-person"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!------- Header section end ------->
+
+
+
+
+
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+      <div class="row v-center">
+        <div class="header-item item-right">
+          <div class="last-ul">
+            <div class="last-ul-one">
+              <div class="ul-hover-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="feather feather-align-left">
+                  <line x1="17" y1="10" x2="3" y2="10"></line>
+                  <line x1="21" y1="6" x2="3" y2="6"></line>
+                  <line x1="21" y1="14" x2="3" y2="14"></line>
+                  <line x1="17" y1="18" x2="3" y2="18"></line>
+                </svg>All Categories</div>
+              <ul>
+                <li><img src="assets/images/ul/biscuit.svg" alt="">
+                  <h6>Vegetables &amp; Fruit</h6>
+                </li>
+                <li><img src="assets/images/ul/breakfast.svg" alt="">
+                  <h6>Beverages</h6>
+                </li>
+                <li><img src="assets/images/ul/cup.svg" alt="">
+                  <h6>Meats &amp; Seafood</h6>
+                </li>
+                <li><img src="assets/images/ul/frozen.svg" alt="">
+                  <h6>Breakfast &amp; Dairy</h6>
+                </li>
+                <li><img src="assets/images/ul/grocery.svg" alt="">
+                  <h6>Frozen Foods</h6>
+                </li>
+                <li><img src="assets/images/ul/meats.svg" alt="">
+                  <h6>Biscuits &amp; Snacks</h6>
+                </li>
+                <li><img src="assets/images/ul/vegetable.svg" alt="">
+                  <h6>Grocery and Staples</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+        </div>
+        <!-- menu start here -->
+        <div class="header-item item-center">
+          <div class="menu-overlay">
+          </div>
+          <nav class="menu">
+            <div class="mobile-menu-head">
+              <div class="go-back"><i class="fa fa-angle-left"></i></div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="menu-main">
+              <li class="menu-item-has-children">
+                <a href="#">Home <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog-detail.html">Blog Detail</a></li>
+                    <li><a href="blog-grid.html">Blog Grid</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                    <li><a href="shop-category-slider.html">Shop Category Slider</a></li>
+                    <li><a href="user-dashboard.html">User Dashboard</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Shop <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="#">Shop Category Slider</a></li>
+                    <li><a href="#">Shop Category Sidebar</a></li>
+                    <li><a href="#"> Shop Banner</a></li>
+                    <li><a href="#">Shop Left Sidebar</a></li>
+                    <li><a href="#">Shop List</a></li>
+                    <li><a href="#">Shop Right Sidebar</a></li>
+                    <li><a href="#">Shop Top Filter</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Product <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="#">Product 4 Image</a></li>
+                    <li><a href="#">Product Thumbnail</a></li>
+                    <li><a href="#">Product Sticky</a></li>
+                    <li><a href="#">Product Bundle</a></li>
+                    <li><a href="#">Product Slider</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Mega Menu <i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item">
+                    <h5>Daily Vegetables</h5>
+                    <ul>
+                      <li><a href="#"> Beans & Brinjals</a></li>
+                      <li><a href="#">Broccoli & Cauliflower</a></li>
+                      <li><a href="#">Chilies, Garlic</a></li>
+                      <li><a href="#">Vegetables & Salads</a></li>
+                      <li><a href="#">Gourd, Cucumber</a></li>
+                      <li><a href="#">Herbs & Sprouts</a></li>
+                      <li><a href="#">Lettuce & Leafy</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h5>Daily Vegetables</h5>
+                    <ul>
+                      <li><a href="#"> Beans & Brinjals</a></li>
+                      <li><a href="#">Broccoli & Cauliflower</a></li>
+                      <li><a href="#">Chilies, Garlic</a></li>
+                      <li><a href="#">Vegetables & Salads</a></li>
+                      <li><a href="#">Gourd, Cucumber</a></li>
+                      <li><a href="#">Potatoes & Tomatoes</a></li>
+                      <li><a href="#"> Peas & Corn</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h5>vegetables</h5>
+                    <ul>
+                      <li><a href="#">Asparagus & Artichokes</a></li>
+                      <li><a href="#">Avocados & Peppers</a></li>
+                      <li><a href="#">Broccoli & Zucchini</a></li>
+                      <li><a href="#">Celery, Fennel & Leeks</a></li>
+                      <li><a href="#">Chilies & Lime</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Blog <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="#">Blog Detail</a></li>
+                    <li><a href="#">Blog Grid</a></li>
+                    <li><a href="#">Blog List</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Pages <i class="fas fa-angle-down"></i></a>
+                <label for="">New</label>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="#">404</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">Compare</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Order Success</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">OTP</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">User Dashboard</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Seller <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="#">Become a Seller</a></li>
+                    <li><a href="#">Seller Dashboard</a></li>
+                    <li><a href="#">Seller Detail</a></li>
+                    <li><a href="#">Seller Detail 2</a></li>
+                    <li><a href="#">Seller Grid</a></li>
+                    <li><a href="#">Seller Grid 2</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="right-icon-div">
+                <div class="right-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-zap" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+              </li>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Deal Today</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <p class="ps-3">Recommended deals for you.</p>
+                <div class="offcanvas-body">
+                  <div class="right-icon-divs">
+                    <div class="right-icon-div-1 first">
+                      <div class="right-icon-div-img">
+                        <img src="assets/images/canvas/10.png" alt="">
+                      </div>
+                      <div class="right-icon-div-content">
+                        <h6>
+                          Blended Instant Coffee 50 g Buy 1 Get 1 Free</h6>
+                        <p>$52.57 <span>57.62</span>500 G</p>
+                      </div>
+                    </div>
+                    <div class="right-icon-div-1 second">
+                      <div class="right-icon-div-img">
+                        <img src="assets/images/canvas/11.png" alt="">
+                      </div>
+                      <div class="right-icon-div-content">
+                        <h6>
+                          Blended Instant Coffee 50 g Buy 1 Get 1 Free</h6>
+                        <p>$52.57 <span>57.62</span>500 G</p>
+                      </div>
+                    </div>
+                    <div class="right-icon-div-1 third">
+                      <div class="right-icon-div-img">
+                        <img src="assets/images/canvas/12.png" alt="">
+                      </div>
+                      <div class="right-icon-div-content">
+                        <h6>
+                          Blended Instant Coffee 50 g Buy 1 Get 1 Free</h6>
+                        <p>$52.57 <span>57.62</span>500 G</p>
+                      </div>
+                    </div>
+                    <div class="right-icon-div-1 fourth">
+                      <div class="right-icon-div-img">
+                        <img src="assets/images/canvas/13.png" alt="">
+                      </div>
+                      <div class="right-icon-div-content">
+                        <h6>
+                          Blended Instant Coffee 50 g Buy 1 Get 1 Free</h6>
+                        <p>$52.57 <span>57.62</span>500 G</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </nav>
+        </div>
+        <!-- menu end here -->
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <section class="user-dashboard">
+
+    <div class="container">
+      <div class="user-dash">
+        <div class="user-dash-1">
+          <h3>Blog Detail</h3>
+        </div>
+        <div class="user-dash-2">
+          <div class="home-icon">
+            <a href="shop-category-slider.html"><i class="fa-solid fa-house" style="color: black;"></i></a>
+            <i class="fa-solid fa-chevron-right"></i>
+            <h6>Blog Detail</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Blog detail section start -->
+
+  <section class="blog-section">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+          <div class="blog-left-div">
+            <div class="blog-serch">
+              <input type="text" placeholder="Search...">
+              <i class="bi bi-search"></i>
+            </div>
+            <div class="blog-recent-post mt-5">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Recent Post
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row py-3">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                          <div class="recent-post-img">
+                            <img src="assets/images/blog-grid-images/recent-post/1.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                          <div class="recent-post-content">
+                            <h5>Green onion knife and salad placed</h5>
+                            <span>25 Jan, 2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row py-3">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                          <div class="recent-post-img">
+                            <img src="assets/images/blog-grid-images/recent-post/2.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                          <div class="recent-post-content">
+                            <h5>Green onion knife and salad placed</h5>
+                            <span>25 Jan, 2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row py-3">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                          <div class="recent-post-img">
+                            <img src="assets/images/blog-grid-images/recent-post/3.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                          <div class="recent-post-content">
+                            <h5>Green onion knife and salad placed</h5>
+                            <span>25 Jan, 2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row py-3">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                          <div class="recent-post-img">
+                            <img src="assets/images/blog-grid-images/recent-post/4.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                          <div class="recent-post-content">
+                            <h5>Green onion knife and salad placed</h5>
+                            <span>25 Jan, 2022</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-category-div mt-5">
+              <div class="category-div">
+                <h4>Category</h4>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="category-list">
+                <ul>
+                  <li>
+                    <h6>Latest Recipes</h6><span><b>10</b></span>
+                  </li>
+                  <li>
+                    <h6>Diet Food</h6><span><b>6</b></span>
+                  </li>
+                  <li>
+                    <h6>Low calorie Items</h6><span><b>8</b></span>
+                  </li>
+                  <li>
+                    <h6>Cooking Method</h6><span><b>9</b></span>
+                  </li>
+                  <li>
+                    <h6>Dairy Free</h6><span><b>12</b></span>
+                  </li>
+                  <li>
+                    <h6>Vegetarian Food</h6><span><b>10</b></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="blog-product-tags mt-5">
+              <div class="blog-product-div">
+                <h5>Product Tags</h5>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="product-list">
+                <ul>
+                  <li>Fruit Cutting</li>
+                  <li>Meat</li>
+                  <li>Organic</li>
+                  <li>Cake</li>
+                  <li>Pick Fruit</li>
+                  <li>Backery</li>
+                  <li>Organix Food</li>
+                  <li>Most Expensive Fruit</li>
+                </ul>
+              </div>
+            </div>
+            <div class="blog-trending-prod mt-5">
+              <div class="blog-trending-big-div">
+                <h5>Trending Products</h5>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="blog-trending-div">
+                <div class="trending-img">
+                  <img src="assets/images/blog-grid-images/trending-products/23.png" alt="">
+                </div>
+                <div class="trending-content">
+                  <p>Meatigo Premium Goat Curry</p>
+                  <span>450 G</span>
+                  <h6>$ 70.00</h6>
+                </div>
+              </div>
+              <div class="blog-trending-div">
+                <div class="trending-img">
+                  <img src="assets/images/blog-grid-images/trending-products/24.png" alt="">
+                </div>
+                <div class="trending-content">
+                  <p>Meatigo Premium Goat Curry</p>
+                  <span>450 G</span>
+                  <h6>$ 70.00</h6>
+                </div>
+              </div>
+              <div class="blog-trending-div">
+                <div class="trending-img">
+                  <img src="assets/images/blog-grid-images/trending-products/26.png" alt="">
+                </div>
+                <div class="trending-content">
+                  <p>Meatigo Premium Goat Curry</p>
+                  <span>450 G</span>
+                  <h6>$ 70.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+          <div class="blog-right-div">
+            <div class="agriculture-div">
+              <div class="agriculture-div-content">
+                <p>Backpack<i class="bi bi-dash"></i>Life Style <i class="bi bi-dash"></i>Organic</p>
+                <h3>Agriculture Conference Harvest 2022 In Paris</h3>
+                <span><i class="bi bi-person"></i>Caroline
+                  <i class="bi bi-calendar-week"></i>April 19, 2022
+                  <i class="bi bi-chat-left"></i>82 Comment</span>
+              </div>
+            </div>
+            <div class="right-div-s-content">
+              <div class="first-s-content">
+                <p><span>S</span>hotgun approach message the initiative so can I just chime in on that
+                  one. Make sure to include in your wheelhouse bells and whistles, and touch base
+                  slow-walk our commitment nor what's the status on the deliverables for eow?. Create
+                  spaces to explore whatâ€™s next commitment to the cause , or UI, for get buy-in but
+                  draw a line in the sand, and pig in a python we've got kpis for that. Message the
+                  initiative value prop, please use "solutionise" instead of solution ideas! :) i am
+                  dead inside. Quick sync 4-blocker. Driving the initiative forward flesh that out.
+                </p>
+              </div>
+              <div class="second-s-content">
+                <p>Let's unpack that later everyone thinks the soup tastes better after theyâ€™ve pissed
+                  in it pivot, re-inventing the wheel, and it's not hard guys. Market-facing pushback
+                  back of the net, for pro-sumer software let's see if we can dovetail these two
+                  projects but turn the crank for they have downloaded gmail and seems to be working
+                  for now. This is not the hill i want to die on you better eat a reality sandwich
+                  before you walk back in that boardroom land the plane yet exposing new ways to
+                  evolve our design language design thinking nor poop, so can you put it into a banner
+                  that is not alarming, but eye catching and not too giant. That is a good problem to
+                  have dog and pony show we're ahead of the curve on that one.</p>
+              </div>
+              <div class="third-s-content">
+                <p>Waste of resources can you run this by clearance? hot johnny coming through driving
+                  the initiative forward our competitors are jumping the shark. Unlock meaningful
+                  moments of relaxation. Copy and paste from stack overflow a tentative event rundown
+                  is attached for your reference, including other happenings on the day you are most
+                  welcome to join us beforehand for a light lunch we would also like to invite you to
+                  other activities on the day, including the interim and closing panel discussions on
+                  the intersection of businesses and social innovation, and on building a stronger
+                  social innovation eco-system respectively what are the expectations, on-brand but
+                  completeley fresh we can't hear you.</p>
+              </div>
+              <div class="adipicising">
+                <i class="bi bi-quote"></i>
+                <h2>Adipisicing elit Qui ipsam natus aspernatur quaerat impedit eveniet ipsum dolor</h2>
+                <h6>- DENNY DOSE</h6>
+              </div>
+              <div class="fourth-s-content">
+                <p>Agile currying favour pulling teeth collaboration through advanced technlogy.
+                  Everyone thinks the soup tastes better after theyâ€™ve pissed in it can you put it
+                  on my calendar?. Low-hanging fruit. Data-point blue sky yet first-order optimal
+                  strategies shotgun approach. Land it in region. Idea shower prairie dogging a set of
+                  certitudes based on deductions founded on false premise nor three-martini lunch.
+                  Baseline. Run it up the flag pole big boy pants so game-plan, and it just needs more
+                  cowbell pixel pushing, but we need to make the new version clean and sexy. Back of
+                  the net we need a recap by eod, cob or whatever comes first for we need evergreen
+                  content.</p>
+              </div>
+              <div class="fifth-s-content">
+                <p>We need to harvest synergy effects land it in region nor time to open the kimono, but
+                  we need to touch base off-line before we fire the new ux experience. Moving the
+                  goalposts. Lean into that problem we need to get all stakeholders up to speed and in
+                  the right place. Get all your ducks in a row this proposal is a win-win situation
+                  which will cause a stellar paradigm shift, and produce a multi-fold increase in
+                  deliverables or dunder mifflin for high-level nor gain alignment into the weeds.
+                  Open door policy. Goalposts player-coach but quick win, so effort made was a lot for
+                  game-plan in an ideal world commitment to the cause . Service as core &innovations
+                  as power makes our brand meeting assassin core competencies run it up the flagpole,
+                  ping the boss and circle back but zoom meeting at 2:30 today.</p>
+              </div>
+            </div>
+            <div class="comments mt-5">
+              <h4>Comments</h4>
+              <div class="comments-div-one mt-4">
+                <div class="comment-img">
+                  <img src="assets/images/blog-detail-image/1.jpg" alt="">
+                </div>
+                <div class="comment-content">
+                  <span>30 Jan, 2022</span>
+                  <h6>Glenn Greer</h6>
+                  <p>"This proposal is a win-win situation which will cause a stellar paradigm shift,
+                    and produce a multi-fold increase in deliverables a better understanding"</p>
+                </div>
+              </div>
+              <div class="comments-div-one mt-5">
+                <div class="comment-img">
+                  <img src="assets/images/blog-detail-image/2.jpg" alt="">
+                </div>
+                <div class="comment-content">
+                  <span>30 Jan, 2022</span>
+                  <h6>Glenn Greer</h6>
+                  <p>"Yeah, I think maybe you do. Right, gimme a Pepsi free. Of course, the
+                    Enchantment Under The Sea Dance they're supposed to go to this, that's where
+                    they kiss for the first time. You'll find out. Are you sure about this storm?"
+                  </p>
+                </div>
+              </div>
+              <div class="comments-div-one mt-5 comment-man-div ps-5">
+                <div class="comment-img">
+                  <img src="assets/images/blog-detail-image/3.jpg" alt="">
+                </div>
+                <div class="comment-content">
+                  <span>30 Jan, 2022</span>
+                  <h6>Glenn Greer</h6>
+                  <p>"Cheese slices goat cottage cheese roquefort cream cheese pecorino cheesy feet
+                    when the cheese comes out everybody's happy"</p>
+                </div>
+              </div>
+            </div>
+            <div class="leave-comment-div mt-5">
+              <h4>Leave Comment</h4>
+              <p>Your email address will not be published. Required fields are marked</p>
+              <div class="input-divs mt-4">
+                <input type="text" class="inp-div" name="" id="" placeholder="Full Name"><br>
+                <input type="text" class="inp-div" name="" id="" placeholder="Enter Email Address"><br>
+                <input type="text" class="inp-div" name="" id="" placeholder="Enter URL"><br>
+                <textarea name="" id="" cols="30" placeholder="Comments" rows="5"></textarea><br>
+                <input type="checkbox" class="checkbox-input" name="" id=""><span>Save my name, email, and website in
+                  this browser for the next time I comment.
+                </span>
+                <button class="btn btn-danger">Post Comment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog detail section ends -->
+
+    <script src="assets/js/navbar.js"></script>
+
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

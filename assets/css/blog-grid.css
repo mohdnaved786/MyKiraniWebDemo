@@ -1,0 +1,287 @@
+::selection {
+    background-color: #0da487;
+    color: #fff;
+}
+
+.user-dashboard {
+    background: #f8f8f8;
+    padding: 30px 0;
+    margin-bottom: 3em;
+}
+
+.user-dash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-icon {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.home-icon h6 {
+    font-size: 14px;
+}
+
+.user-dash-1 h3 {
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.blog-left-div{
+    position: sticky;
+    top: 40px;
+}
+
+.blog-serch {
+    position: relative;
+}
+
+.blog-serch input {
+    width: 22rem;
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+}
+
+.blog-serch i {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+}
+
+.recent-post-img img {
+    transition: 0.4s all;
+}
+
+.recent-post-img img:hover {
+    transform: scale(1.1) rotate(2deg);
+    cursor: pointer;
+}
+
+.recent-post-content {
+    padding-left: 13px;
+}
+
+.recent-post-content h5 {
+    font-size: 16px;
+}
+
+.recent-post-content span {
+    font-size: 14px;
+}
+
+.accordion button {
+    background-color: #f8f8f8 !important;
+    color: black !important;
+    font-weight: 500;
+}
+
+.accordion-body {
+    background-color: #f8f8f8;
+}
+
+.recent-post-img .img-fluid {
+    max-width: 120%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.blog-category-div {
+    background-color: #f8f8f8;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.category-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 25px;
+}
+
+.category-div h4 {
+    font-size: 18px;
+}
+
+.category-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.category-list ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.category-list ul li h6 {
+    color: #4a5568;
+}
+
+.category-list ul li span {
+    background-color: #0da487;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.blog-product-tags {
+    background-color: #f8f8f8;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.blog-product-div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list ul li {
+    background: white;
+    padding: 3px 14px;
+    margin: 10px 0;
+    transition: 0.3s all;
+}
+
+.product-list ul li:hover {
+    background-color: #0da487;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.blog-trending-prod {
+    background-color: #f8f8f8;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.blog-trending-big-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+.blog-trending-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.trending-content p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.trending-img img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.trending-img img {
+    transition: 0.3s all;
+}
+
+.trending-content span {
+    font-size: 15px;
+}
+
+.trending-content h6 {
+    font-size: 14px;
+    color: #0da487;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-imgs{
+    overflow: hidden;
+}
+
+.card img {
+    transition: 0.2s ease-in-out;
+}
+
+.blog-card-div .card:hover img {
+    transform: scale(1.1) rotate(3deg);
+}
+
+.card-body h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-body p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-body a {
+    background: #f4f4f4;
+    border: none;
+    color: #0da487;
+}
+
+.card-body a:hover {
+    background: #0da487;
+}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .blog-serch input {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .blog-serch input {
+        width: 43rem;
+    }
+
+    .recent-post-content {
+        padding-left: 3rem;
+    }
+
+    .recent-post-content h5 {
+        font-size: 26px;
+    }
+
+    .recent-post-content span {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .blog-serch input {
+        width: 32rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .recent-post-img .img-fluid {
+        max-width: 100%;
+    }
+
+    .recent-post-content {
+        padding-top: 18px;
+    }
+}

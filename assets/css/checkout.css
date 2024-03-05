@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+body {
+    /* font-family: 'Public Sans', sans-serif !important; */
+}
+
+::selection {
+    background-color: #0da487;
+    color: #fff;
+}
+
+.user-dashboard {
+    background: #f8f8f8;
+    padding: 30px 0;
+    margin-bottom: 3em;
+}
+
+.user-dash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-icon {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.home-icon h6 {
+    font-size: 14px;
+}
+
+.user-dash-1 h3 {
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.checkout-section {
+    /* padding-top: 6rem; */
+}
+
+.delievery-add-div {
+    padding: calc(14px + (29 - 14) * ((100vw - 320px) / (1920 - 320)));
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #eee;
+    margin-left: 66px;
+    position: relative;
+}
+
+.delievery-one {
+    border-radius: 8px;
+    padding: calc(12px + (24 - 12) * ((100vw - 320px) / (1920 - 320)));
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+}
+
+.delievery-one .jack-jenas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delievery-one address {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+    margin: 10px 0;
+}
+
+.delievery-one .jack-jenas span {
+    background-color: #0da487;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+
+.jack-jenas h6 {
+    font-size: calc(17px + (18 - 17) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.delievery-option-div {
+    padding: calc(14px + (29 - 14) * ((100vw - 320px) / (1920 - 320)));
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #eee;
+    margin-left: 66px;
+    position: relative;
+}
+
+.delievery-option-one {
+    border-radius: 8px;
+    padding: 20px 20px;
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+}
+
+.delievery-option-one p {
+    margin: 0;
+}
+
+.payment-option-div {
+    padding: calc(14px + (29 - 14) * ((100vw - 320px) / (1920 - 320)));
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #eee;
+    margin-left: 66px;
+    position: relative;
+}
+
+.payment-option-one {
+    border-radius: 8px;
+    padding: 20px 20px;
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+    margin-bottom: 1.5rem;
+}
+
+.payment-option-one p {
+    margin: 0;
+}
+
+
+.order-summary {
+    background: #f8f8f8;
+    padding: 26px 28px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.order-summary h6 {
+    border-bottom: 1px solid #c3c3c37a;
+    padding-bottom: 1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.order-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.bell-paper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.order-img img {
+    width: 3rem;
+}
+
+.order-para p {
+    margin: 0;
+}
+
+.subtotal {
+    background: #f8f8f8;
+    padding: 26px 28px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.subtotal-one {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+}
+
+.subtotal-one .text-big {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subtotal-one P {
+    margin: 0;
+}
+
+.subtotal-one-two {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c3c3c37a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.subtotal-one-two .colr-chnge {
+    color: #0da487;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.subtotal-one-two p {
+    margin: 0;
+}
+
+.available-offer {
+    background: #f8f8f8;
+    padding: 26px 28px;
+    border-radius: 8px;
+}
+
+.available-offer img {
+    width: 20px;
+}
+
+.available-offer ul {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: #6c6c6c;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+
+.available-offer ul li {
+    padding: 10px 0;
+}
+
+.place-order {
+    background: #0da487;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.place-order button {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.up-button a {
+    color: white;
+    background: #0da487;
+    position: fixed;
+    right: 30px;
+    bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.up-button a:hover {
+    color: white;
+}
+
+
+.accordion {
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.checkbox-right-div {
+    border-left: 1px dashed #adadad;
+    position: relative;
+}
+
+.checkbox-right-div .bi-cart3 {
+    position: absolute;
+    top: -8px;
+    background: #0da487;
+    color: #fff;
+    border-radius: 50%;
+    left: -19px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.checkbox-right-div .bi-geo-alt {
+    position: absolute;
+    top: 31rem;
+    background: #0da487;
+    color: #fff;
+    border-radius: 50%;
+    left: -19px;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.checkbox-right-div .bi-browser-edge {
+    position: absolute;
+    top: 62rem;
+    background: #0da487;
+    color: #fff;
+    border-radius: 50%;
+    left: -19px;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.checkbox-right-div .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1024px) and (max-width: 1279px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 500px) and (max-width: 700px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .delievery-add-div {
+        margin-left: 0px;
+    }
+
+    .delievery-option-div {
+        margin-left: 0px;
+    }
+
+    .payment-option-div {
+        margin-left: 0px;
+    }
+}
